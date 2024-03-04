@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------------------- CSS --------------------->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/sacola.css">
+
+    <!-------------------- FAVICON --------------------->
+    <link rel="shortcut icon" href="/assets/imagens/favicon/android-chrome-512x512.png" type="image/x-icon">
+    
+    <!-------------------- REMIX ICON --------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    
+    <title>Minha Sacola</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav_bar">
+            <button id="button-throwback" class="button-arrow-back">
+                <i class="ri-arrow-left-line"></i><span class="throwback">Voltar</span>
+            </button>
+
+            <a class="logo" href="../index.html">
+                <img src="/assets/imagens/Logo@1x_1.png" alt="Logo Emake">
+            </a>
+        </nav>
+    </header>
+
+    <div class="container_content">
+        
+        <div class="timeline">
+            <!-- Linha do tempo da compra: | Sacola -> Pagamento -> Entrega |-->
+        </div>
+
+        <main class="main">
+            <div class="container">
+            
+                <div class="bag_container">
+
+                    <div class="bag_content">
+                        <i class="ri-shopping-bag-line"></i>
+                        <h2>Sua sacola está vazia</h2>
+                        <button type="button">Continuar comprando</button>
+                    </div>
+                    <!-- Aba da sacola de itens, quantidade, valor-->
+                </div>
+            
+                <aside>
+                    <div class="gifts">
+                        <!-- Para presente -->
+                    </div>
+
+                    <div class="services">
+                        <h1>Serviço ao Cliente</h1>
+                        <h2>Serviço de Atendimento ao <br> Consumidor Emake:</h2>
+
+                        <Span class="span_whatsapp"><i class="whatsapp_icon ri-whatsapp-line"></i>WhatsApp:</Span>
+                        
+                        <div class="phone_content">
+                            <a class="number" href="#">+55 11 91234-5678</a>
+                        </div>
+
+                        <span class="hour">Segunda à sexta, exceto feriados: 9h - 18h</span>
+
+                        
+                        <ul class="nav_services">
+                            <li class="nav_item">
+                                <i class="service_icon ri-truck-line"></i>Entrega Padrão
+                            </li>
+                            
+                            <li class="nav_item">
+                                <i class="service_icon ri-arrow-left-right-line"></i>Devoluções e Trocas
+                            </li>
+
+                            <li class="nav_item">
+                                <i class="service_icon ri-shield-check-line"></i>Compra Segura
+                            </li>
+                        </ul>
+
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer_items">
+            <a class="footer_links" href="#">Termos e Condições</a>
+            <a class="footer_links" href="#">Fale Conosco</a>
+            <a class="footer_links" href="#">Política de Privacidade</a>
+            <a class="footer_links" href="#">Devoluções e Trocas</a>
+        </div>
+        
+        <span class="copyright footer_items">&copy; Emake 2024. Todos os direitos reservados.</span>
+    </footer>
+
+    <script src="JavaScript/sacola.js"></script>
+</body>
+</html>

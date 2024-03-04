@@ -1,0 +1,54 @@
+/*  Header Responsivo  */
+
+@media (max-width: 800px){
+    #pesq_input{
+        display: none;
+    } /* Barra de Pesquisa */
+
+    .span_button{
+        font-size: 0;
+    } /* Texto da sacola e conta */
+
+    .btn-icons button i {
+        font-size: 24px;
+    } /* Icones da sacola e conta */
+
+    nav.menulateral.expandir {
+        width: 100%;
+        max-width: none;
+        
+    }
+
+    li.item-menu:hover {
+        background: none;
+    }
+
+    ul li a {
+        line-height: normal;
+        margin-top: 5rem;
+
+    } /* Menu Lateral */
+
+    /* Rodape */
+    footer{ position: static;}
+    .footer-container{
+        padding: 10px;
+    }
+    .footer-container .footer-container-1,
+    .footer-container .footer-container-2,
+    .footer-container .footer-container-3{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-container .footer-container-2 i{
+        margin-left: 0;
+    }
+    .footer-container h3{
+        font-size: 20px;
+    }
+    hr{
+        width: 70%;
+        margin: 0 auto;
+    } /*Rodape*/
+}

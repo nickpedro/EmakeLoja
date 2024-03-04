@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root{
+    --first-color: #f8f2eb;
+    --background-color: #ffffff;
+    --text-color: #444;
+    --scrollbar: #929090;
+    --scrollbar-background: #cac7c7;
+
+    /*========== Font and typography ==========*/
+    --body-font: 'League Spartan', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+/*==================== BASE ====================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--first-color);
+}
+
+h1, h2, h3, h4, span {
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*==================== SCROLLBAR ====================*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--scrollbar-background);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--scrollbar);
+    border-radius: 15px;
+}
+
+/*==================== HEADER ====================*/
+.header {
+    max-width: 100%;
+    height: 80px;
+    z-index: var(--z-fixed);
+    background-color: var(--first-color);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*==================== NAV BAR ====================*/
+.nav_bar {
+    background-color: var(--first-color);
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.button-arrow-back { 
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 40px;
+    border: 0;
+    background-color: transparent;
+}
+
+.throwback{
+    font-weight: 600;
+}
+
+.ri-arrow-left-line { /* ARROW ICON <- */
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.logo {
+    width: 200px;
+    margin-left: 470px;
+}
+
+/*==================== CONTENT ====================*/
+.container {
+    margin-top: 1rem;
+    margin: 40px;
+    display: flex;
+    padding: 10px; 
+}
+
+/*==================== TIMELINE ====================*/
+
+
+/*==================== BAG ITEMS ====================*/
+
+.bag_container {
+    align-items: center;
+    text-align: center;
+    margin-right: 15px;
+    background-color: var(--background-color);
+    width: 70%;
+    height: 80vh;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bag_content {
+    margin-top: 25vh;
+}
+
+.bag_content i {
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
+.bag_container h2 {
+    font-size: var(--h2-font-size);
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bag_container button {
+    background-color: #444;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: var(--font-semi-bold);
+    cursor: pointer;
+}
+
+/*==================== SERVICES ====================*/
+.services{
+    display: flex;
+    flex-direction: column;
+    max-height: 360px;
+    padding: 20px 30px 20px 30px;
+    max-width: 100%;
+    width: 500px;
+    background-color: var(--background-color);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    font-size: var(--h3-font-size);
+}
+
+.services h1 {
+    box-sizing: border-box;
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    text-transform: initial;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    color: #444;    
+}
+
+.services h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 350;
+    font-size: var(--h1-font-size);
+}
+
+.span_whatsapp {
+    font-size: var(--h2-font-size);
+    margin-top: 8px;
+}
+
+.whatsapp_icon {
+    color: var(--text-color);
+    font-size: 20pt;
+    margin-right: 10px;
+}
+
+.phone_content{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number{
+    text-decoration: underline;
+    font-size: var(--h2-font-size);
+    font-weight: 350;
+}
+
+.hour{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: var(--normal-font-size);
+}
+
+.nav_services{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_item{
+    color: #444;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_icon{
+    font-size: 2rem;
+}
+
+/*==================== FOOTER ====================*/
+.footer{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 25PX;
+    bottom: 0;
+}
+
+.footer_items{
+    padding: 15px;
+    font-size: var(--normal-font-size);
+}
+
+.footer_links{
+    padding: 18px;
+}
+
+.copyright {
+    position: relative;
+    display: flex;
+    padding: 15px;
+    margin-right: 25px;
+}
