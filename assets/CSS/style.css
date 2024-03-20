@@ -25,19 +25,15 @@ header{
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .navbar-container{
     padding: 1rem;
     position: sticky;
     top: 0;
-    /* margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; */
     z-index: 99;
     background-color: var(--other-color) ;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -145,102 +141,74 @@ ul li a{
 }
 /*-----------------------------------------------Header-------------------------------------------------------*/
 
-.navbar-container main{
-    background-color: var(--bg-color);
+/*-----------------------------------------------Main---------------------------------------------------------*/
+.page-inner-content{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.principal{
-    width: 100%;
-    padding: 50px;
-}
-
-.home{
-    position: absolute;
+.page-inner-content-section{
+    position: relative;
     display: flex;
-    width: auto;
     grid-template-columns: 2fr,1fr;
     text-align: justify;
+    align-content: center;
     gap: 2rem;
-    margin-top: 5%;
-    margin-left: 14%;
+    margin-left: 13%;
+    margin-top: 3%;
 }
 
-.home-img{
-    margin-left: 8%;
-}
-
-.one{
+.page-inner-content-section-img{
     border-radius: 2%;
-    width: 60%;
+    width: 45%;
     height: auto;
     box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.2) ;
-}
-
-.main{
+} 
+ 
+.page-inner-content-main{
     display: flex;
-    position: absolute;
-    margin-top: 15%;
-    padding: 0px 0px 7px 0px; /*topo, direita, inferior, esquerda */
-    margin-left: 10%;
     flex-direction: column;
+    text-align: justify;
+    position: sticky;
     transform: translateY(-50%);
-    gap: 2rem;
-}
+    gap: 1rem;
+    margin-top: -20%;
+} 
 
-.main li img{
-    width: 90%;
-    border: 2px solid black;
-    border-radius:10% ;
-    margin-top: 20px;
-}
-
-
-.row{
-    display: none;
-    height: 120px;
-    width: 120px;
-    border-radius: 20%;
-    justify-content: center;
+.page-inner-content-main li img{
+    border: 1px solid black;
+    border-radius: 10% ;
+    width: 8%;
+    height: auto;
     transition: all.55s ease;
     cursor: pointer;
     display: inline-flex;
 }
 
-.row:hover{
+.page-inner-content-main li img:hover{
     transform: translateY(-8px);
 }
 
 
-.row2{
-    display: none;
-    height: 120px;
-    width: 120px;
-    border-radius: 20%;
-    justify-content: center;
-    transition: all.55s ease;
-    cursor: pointer;
-    display: inline-flex;
-}
-
-.row2:hover{
-    transform: translateY(-8px);
-}
 
 
-.row3{
-    display: none;
-    height: 120px;
-    width: 120px;
-    border-radius: 20%;
-    justify-content: center;
-    transition: all.55s ease;
-    cursor: pointer;
-    display: inline-flex;
-}
 
-.row3:hover{
-    transform: translateY(-8px);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .txtarea{
     padding: 15px;
@@ -305,7 +273,7 @@ ul li a{
 .p1{
    padding: 10px;
    width: 23,50vw;
-}
+} 
 
 
 .areaApresentacao{

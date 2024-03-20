@@ -1,5 +1,5 @@
 function slider (anything){
-    document.querySelector ('.one') .src = anything;
+    document.querySelector ('.page-inner-content-section-img') .src = anything;
 };
 
 let menu = document.querySelector ('#menu-icon');
