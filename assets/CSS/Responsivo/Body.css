@@ -1,0 +1,14 @@
+@media (max-width: 800px){
+    .page-inner-content-main{
+        display: none;
+    }
+    .page-inner-content-section{
+        display: none;
+    }
+
+    .carrossel{
+        display: block;
+        
+    }
+    
+}
