@@ -146,7 +146,7 @@ ul li a{
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    
+    overflow: hidden;
 }
 
 .page-inner-content-section{
@@ -198,84 +198,89 @@ ul li a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.txtarea{
-    padding: 15px;
-    margin-left: 72%;
-    margin-top: 1%;
-    width:17vw;
-    height: auto;
-    font-size: 1.2em;
+.page-inner-content-txtarea{
+    max-width: calc(35% - 20px); 
+    margin-left: 73%; 
+    margin-top: -70%; 
+    padding: 1.5vw;
+    font-size: 1.2vw;
     font: var(--p-font);
     border-radius: 10px;
-    border:2px solid white;
-    text-align: justify;
-    background-color:white;
+    border: 2px solid white;
+    background-color: white;
     color: #222;
-    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0.5vw 0.4vw 0.5vw rgba(0, 0, 0, 0.2);
 }
 
 
 .home-text h1{
-    font-size: var(--h1-font);
+    max-width: calc(35% - 20px); 
+    font-size: 2.5vw;
     line-height: 1.2;
-    margin-bottom: 0,5rem;
-    padding: 10px;
-    color: var(--other-color);
+    margin-bottom: 1vw;
+    padding: 1vw;
+    color: #000000;
 }
 
 .home-text h5{
-    color: var(--other-color);
-    font-size: 14px;
+    max-width: calc(35% - 20px); 
+    color: #000000;
+    font-size: 1vw;
     font-weight: 400;
-    padding: 15px;
+    padding: 1.5vw;
     margin-bottom: 0,1rem;
 }
 
 .home-text h3{
-    color: var(--other-color);
-    font-size: 40px;
+    max-width: calc(35% - 20px); 
+    color: #000000;
+    font-size: 2vw;
     font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 0,5rem;
-    padding: 10px;
+    letter-spacing: 0.1vw;
+    margin-bottom: 0,5vw;
+    padding: 1vw;
 }
 
 .btn{
-    display: inline-block;
-    font-size: 16px;
+    font-size: 1.5vw; 
     font-weight: 500;
-    margin-left: 1rem;
+    margin-left: 1vw; 
     background: transparent;
-    border: solid 2px var(--tex-color);
-    transition: all.55 ease;
-    padding: 15px;
-    color:var(--other-color);
-    margin-bottom: 1rem;
+    border: 0.2vw solid var(--tex-color); 
+    transition: all 0.5s ease; 
+    padding: 1.5vw;
+    color: var(--other-color);
+    margin-bottom: 1vw; 
 }
 .btn:hover{
     background: var(--tex-color);
-    border: 2px solid var(--tex-color);
+    border: 0.2vw solid var(--tex-color);
     color: var(--other-color);
 }
 
 .p1{
-   padding: 10px;
-   width: 23,50vw;
+   padding: 1vw;
+   width: 23.50vw;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .areaApresentacao{
