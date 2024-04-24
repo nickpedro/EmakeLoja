@@ -10,5 +10,27 @@
         display: block;
         
     }
-    
+
+    /* text area */
+    .page-inner-content-txtarea{
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .home-text h1{
+        text-align: left;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .botãoAddSacola{
+        display: none;
+    }
+    .btnResponsivoAddSacola{
+        display: block;
+    }
+    hr{
+        display: none;
+    }
+   
 }
