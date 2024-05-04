@@ -19,17 +19,32 @@
     } 
     .home-text h1{
         text-align: left;
-        align-items: center;
-        padding: 10px;
+        padding: 1px ;
     }
-
+    .home-text h5{
+        text-align: left;
+        padding: 1px ;
+    }
+    .home-text h3{
+        text-align: left;
+        padding: 1px ;
+    }
+    .home-text p{
+        text-align: left;
+        padding: 1px ;
+    }
     .botãoAddSacola{
         display: none;
     }
     .btnResponsivoAddSacola{
         display: block;
     }
-    hr{
+    .hr1{
+        border-bottom: 1px solid #cfb5b5; 
+        margin: 20px 0;
+        width: auto;
+    }
+    .hr2{
         display: none;
     }
    
