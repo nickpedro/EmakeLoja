@@ -47,5 +47,12 @@
     .hr2{
         display: none;
     }
+
+    /* Text Apresentação */
+    .page-inner-content-areaApresentacao{
+        width: 100%;
+        margin-left: 0%;
+
+    }
    
 }
